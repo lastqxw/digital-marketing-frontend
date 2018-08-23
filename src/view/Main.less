@@ -1,10 +1,16 @@
-#components-layout-demo-basic {
+	#components-layout-demo-basic {
 		text-align: center;
 		background-color: #efeff4;
 	}
 	#components-layout-demo-basic .ant-layout-header{
 		margin-bottom: 10px;
+		position: fixed;
+		left: 0px;
+		top: 0px;
+		width: 100%;
+		z-index: 9999999;
 	}
+	
 	#components-layout-demo-basic .ant-layout-header,
 	#components-layout-demo-basic .ant-layout-footer {
 		background: #fff;
@@ -52,6 +58,7 @@
 		background: #fff;
 		color: #000;
 		min-height: 120px;
+		margin-top: 85px;
 	}
 
 	#components-layout-demo-basic>.ant-layout {
